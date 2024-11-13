@@ -1,4 +1,4 @@
-package s;
+package single_responsability_principle;
 
 public class SingleResponsabilty {
 
