@@ -9,7 +9,7 @@ public class PaymentProcessor {
         System.out.println("Processing payment...");
 
         if (pix != null) {
-            System.out.println("processing boleto...");
+            System.out.println("processing pix...");
             return true;
         }
 

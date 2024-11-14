@@ -6,6 +6,8 @@ public class InterfaceSegregation {
         Animal snake = new Snake();
 
         lion.move();
+
+        // Trying to use a method that the class shouldn't need to implement
         snake.walk();
     }
 }

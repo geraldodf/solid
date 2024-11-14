@@ -11,6 +11,7 @@ public class LiskovSubstitution {
         ford.brake();
         ferrari.brake();
 
+        // We can change the cars without affecting the other one. Because they are children of the same class.
         ford = ferrari;
 
         ford.accelerate();

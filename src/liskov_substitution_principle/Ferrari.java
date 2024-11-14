@@ -6,6 +6,6 @@ public class Ferrari extends Car {
     }
 
     public void accelerate() {
-        System.out.println("Accelerating my poweful Ferrari...");
+        System.out.println("Accelerating my powerful Ferrari...");
     }
 }

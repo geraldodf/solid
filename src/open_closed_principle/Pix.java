@@ -2,7 +2,6 @@ package open_closed_principle;
 
 public class Pix implements Payment {
 
-
     @Override
     public void process() {
         System.out.println("Pix is processing...");

@@ -2,6 +2,7 @@ package interface_segregation_principle;
 
 public class Snake implements Animal {
 
+    // Why is this method here? It's not needed for the snake.
     @Override
     public void walk() {
         System.out.println("I can't walk, I'm a snake!");

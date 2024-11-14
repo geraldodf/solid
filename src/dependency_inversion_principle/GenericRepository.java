@@ -4,6 +4,7 @@ public class GenericRepository {
 
     private Database database;
 
+    // Injecting database dependency
     public GenericRepository(Database database) {
         this.database = database;
     }

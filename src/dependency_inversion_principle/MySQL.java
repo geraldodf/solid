@@ -1,5 +1,6 @@
 package dependency_inversion_principle;
 
+// Respecting the Database contract
 public class MySQL implements Database {
 
     @Override
